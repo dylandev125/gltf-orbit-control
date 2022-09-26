@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  position: relative;
 }
 
 .App-logo {
@@ -35,4 +36,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+main {
+  position: absolute;
+  width: 100vw;
+  top: 0px
+}
+
+.title-label {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.config {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+main div {
+  display: flex;
+  align-items: center;
 }
